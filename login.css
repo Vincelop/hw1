@@ -1,0 +1,48 @@
+.signup {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.login {
+    margin-bottom: 0;
+}
+
+#remember {
+    position: relative;
+    bottom: -0.15rem;
+}
+
+.post {
+    display: block;
+}
+
+label {
+    display: inline-block;
+}
+
+body {
+    background-image: url('loginjpg.jpg') ;
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+}
+.overlay {
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left:0;
+    top:0;
+    background-color: rgba(1,1,1,0.67);
+}
+
+.container {
+    color: white;
+}
+
+.container:visited {
+    color: aliceblue;
+}
+
+a:visited {
+    color: aliceblue;
+}
